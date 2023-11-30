@@ -9,13 +9,21 @@
                <form method="post">
 
                    <div class="form-floating mb-3">
-                       <input type="text" class="form-control" id="name" placeholder="Name">
+                       <input name="name" type="text" class="form-control" id="name" placeholder="Name">
                        <label for="name">Name</label>
                    </div>
-                   <div class="form-floating">
-                       <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-                       <label for="floatingPassword">Password</label>
+
+                   <div class="form-floating mb-3">
+                       <input name="email" type="email" class="form-control" id="email" placeholder="Email">
+                       <label for="email">Email</label>
                    </div>
+
+                   <div class="form-floating mb-3">
+                       <input name="password" type="password" class="form-control" id="password" placeholder="Password">
+                       <label for="password">Password</label>
+                   </div>
+
+                   <button type="submit" class="btn btn-primary">Register</button>
 
                </form>
            </div>
