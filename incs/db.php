@@ -3,7 +3,7 @@
 $db_config = [
     'host' => 'localhost',
     'user' => 'root',
-    'password' => '',
+    'pass' => '',
     'db' => 'test'
 ];
 
@@ -12,4 +12,4 @@ $opt = [
     PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC
 ];
 
-$db = new PDO($dsn, $db_config['user'], $db_config['password'], $opt);
+$db = new PDO($dsn, $db_config['user'], $db_config['pass'], $opt);
